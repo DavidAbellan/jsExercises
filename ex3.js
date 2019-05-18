@@ -4,6 +4,11 @@
 
 function namesOnly(persons){
     // your code here
+    let arrayNombres= []
+    for (persona of persons){
+       arrayNombres.push(persona.name)
+    }
+    return arrayNombres;
 }
 
 

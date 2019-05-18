@@ -3,6 +3,11 @@
 
 function stringItUp(numbers){
     // your code here
+    let arrayStrings = [];
+    for(number of numbers){
+       arrayStrings.push(''+ number)    
+    }
+    return arrayStrings;
 }
 
 

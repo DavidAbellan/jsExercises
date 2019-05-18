@@ -3,7 +3,18 @@
 
 
 function fiveAndGreaterOnly(numbers) {
-    // your code here
+    // your code 
+    let nuevoArray = [];
+  for ( number of numbers){
+    if (number >= 5){
+
+        nuevoArray.push(number);
+    }  
+
+
+  }
+  return nuevoArray;
+
 }
 
 

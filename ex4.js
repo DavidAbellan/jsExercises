@@ -6,6 +6,15 @@
 
 function makeStringsWhoCanAccess(persons){
     // your code here
+    let mayoresDe18 =[];
+    for(persona of persons){
+          if (persona.age >= 18){
+              mayoresDe18.push(persona.name);
+          }
+ 
+
+    }
+    return mayoresDe18;
 }
 
 const test = require('./tools/test');
