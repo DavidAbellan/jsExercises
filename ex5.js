@@ -19,10 +19,14 @@
 
 function songsOfArtist(songs, artistName){
     let canciones = [];
-    
+     
+for (item of songs){
+   if (item.artist == artistName){
+       canciones.push(item.song)
+   }
 
-        canciones.push(songs);
-
+}
+ 
 
     
 
